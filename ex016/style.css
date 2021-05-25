@@ -1,0 +1,42 @@
+* {
+    font: normal 16pt Arial;
+}
+
+body {
+    background: rgb(0, 81, 128);
+    font: normal 15pt Arial;
+    color: black;
+}
+
+header {
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 20pt;
+}
+
+section {
+    background: white;
+    border-radius: 10px; /*borda arredondada*/
+    padding: 15px; /*espacamento*/
+    width: 500px; /* largura */
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+
+}
+
+#confirm {
+    background: rgb(0, 81, 128);
+    color: white;
+    border-radius: 5px;
+}
+
+footer {
+    color: whitesmoke;
+    text-align: center;
+    font-style: italic;
+
+}

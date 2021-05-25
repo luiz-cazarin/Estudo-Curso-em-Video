@@ -1,0 +1,54 @@
+body {
+    background: rgb(0, 81, 128);
+    font: normal 15pt Arial;
+    color: black;
+}
+
+header {
+    color: whitesmoke;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px; /*borda arredondada*/
+    padding: 15px; /*espacamento*/
+    width: 500px; /* largura */
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
+
+}
+
+#txtNum {
+    background: none;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+#confirm {
+    padding: 10px;
+    background: rgb(0, 81, 128);
+    color: white;
+
+}
+
+#res {
+    padding: 10px;
+    font: normal 18pt Arial;
+    background: rgb(0, 81, 128);
+    color: white;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-style: italic;
+}

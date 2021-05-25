@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcula passo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- numero inico, numero FIM definir o passo e exibir contando  -->
+
+<!-- informar um numero e mostrar a tabuada  -->
+<body>
+    <header>
+        <h1>Calcula Passo</h1>
+    </header>
+    <section>
+        <div id="dados">
+          <input type="number" name="inicio" id="txtIni">
+          <label for="txtIni">Inicio</label>
+          <br></br>
+          <input type="number" name="fim" id="txtFim">
+          <label for="txtFim">Fim</label>
+          <br></br>
+          <input type="number" name="passo" id="txtPas">
+          <label for="txtPas">Passo</label>
+          <br></br>
+          <button id="confirm" onclick="gerarNum()">Confirmar</button>
+          <br> <br>
+        </div>
+
+        <div id="res">Informe os valores para exibir o resultado</div>
+    
+    </section>
+    <footer>
+        <p>&copy; Luiz Claudio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
